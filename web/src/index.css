@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0f1117;
+  color: #e8eaf0;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #161b27; }
+::-webkit-scrollbar-thumb { background: #2a3245; border-radius: 3px; }
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

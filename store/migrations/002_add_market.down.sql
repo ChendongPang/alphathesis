@@ -1,0 +1,1 @@
+ALTER TABLE theses DROP COLUMN market;
