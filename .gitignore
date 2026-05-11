@@ -4,9 +4,7 @@
 .run/
 logs/
 alphathesis.log
-server
-runner
-thesis
+
 
 # Python
 __pycache__/
